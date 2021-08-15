@@ -26,19 +26,12 @@
 </head>
 
 
-<<<<<<< Updated upstream
-<body>
-	<header class="header"></header>
-
-	<main class="main"></main>
-=======
 <body style="background-color: #333">
 	<header class="header"></header>
 
 	<main class="main">
 		<div class="block --svg__logo"></div>
 	</main>
->>>>>>> Stashed changes
 	<footer class="footer"></footer>
 
 	<script src="js/libs.min.js"></script>
