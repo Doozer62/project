@@ -1,0 +1,12 @@
+button {
+    @include no-btn;
+    padding: 12px 24px;
+    background-color: #63A60E;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    width: 173px;
+    height: 47px;
+    font-weight: 400;
+    @include btn_anim(1.05, 0.95);
+}
