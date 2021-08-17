@@ -2,3 +2,10 @@
 @import 'global/*.scss';
 @import '**/_*.scss';
 @import '../components/**/*.scss';
+.header-top {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 0;
+    }
+}
