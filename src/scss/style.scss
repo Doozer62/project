@@ -2,10 +2,36 @@
 @import 'global/*.scss';
 @import '**/_*.scss';
 @import '../components/**/*.scss';
-.header-top {
-    &__inner {
+.header {
+    &__top {
+        padding: 17px 0;
+        text-transform: uppercase;
         display: flex;
         justify-content: space-between;
-        padding: 17px 0;
+        font-style: Bold;
+        font-size: 13px;
+        line-height: 16px;
+        align-items: center;
+    }
+}
+
+.header-top {
+    &__inner {
+        background-color: #31352B;
+    }
+}
+
+.left-side {
+    &__hotline {
+        padding-left: 10px;
+    }
+}
+
+.menu {
+    &__list {
+        display: flex;
+    }
+    &__list-link {
+        margin-left: 24px;
     }
 }
