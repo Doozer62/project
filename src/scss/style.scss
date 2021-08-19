@@ -2,8 +2,23 @@
 @import 'global/*.scss';
 @import '**/_*.scss';
 @import '../components/**/*.scss';
+<<<<<<< HEAD
 
 
+=======
+.header {
+    &__top {
+        padding: 17px 0;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        font-style: Bold;
+        font-size: 13px;
+        line-height: 16px;
+        align-items: center;
+    }
+}
+>>>>>>> parent of b367f67 (19.08.21 16:14)
 
 .header-top {
 
@@ -12,6 +27,7 @@
     }
 }
 
+<<<<<<< HEAD
 .header {
 
     &__top {
@@ -49,4 +65,13 @@
         justify-content: space-between;
     }
 
+=======
+.menu {
+    &__list {
+        display: flex;
+    }
+    &__list-link {
+        margin-left: 24px;
+    }
+>>>>>>> parent of b367f67 (19.08.21 16:14)
 }
